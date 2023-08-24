@@ -1,5 +1,5 @@
-# AzureOpenAI-Ref
-This repository serves as a guide for deploying a GPT-powered chat bot to your web application. The reference architecture and guidance complies with Azure Qatar Reference Architecture. 
+# Azure Qatar Reference for Azure OpenAI workloads
+Welcome! This repository serves as a guide for deploying a GPT-powered chat bot to your web application. The reference architecture and guidance complies with Azure Qatar Reference Architecture. 
 
 ## Resources
 The following resources are available in this repository:
