@@ -4,17 +4,20 @@ Welcome! This repository serves as a guide for deploying a GPT-powered chat bot 
 ## Resources
 The following resources are available in this repository:
 
-- **High Level Diagram**: To highlight the logical flow of Azure components to facilitate conversations with the chat bot on your web application
-- **Low Level Diagram**: Builds on top of the Azure Qatar Reference Architecture to provide secure and scalable ways to deploy your resources
-- **Dataflow**
+- ### High Level Diagram :  
+  To highlight the logical flow of Azure components to facilitate conversations with the chat bot on your web application
+- ### Low Level Diagram:  
+  Builds on top of the Azure Qatar Reference Architecture to provide secure and scalable ways to deploy your resources
+- ### Dataflow
   1. action1
   2. action2
   3. action3
   4. action4
   5. action5
   ...
-- **Components**
-  
+- ### Components
+   **User Experience**
+
   **[Azure App Service](https://azure.microsoft.com/en-us/products/app-service/)** is a fully managed service for building, deploying, and scaling web apps. You can build apps by using .NET, .NET Core, Node.js, Java, Python, or PHP. The apps can run in containers or on Windows or Linux. In a mainframe migration, the front-end screens or web interface can be coded as HTTP-based REST APIs. They can be segregated as in the mainframe application, and can be stateless to orchestrate a microservices-based system.  
 
  Azure App service considerations & recommendations are broken down into six different design areas, where you can find the links to each at:
@@ -27,10 +30,12 @@ The following resources are available in this repository:
 | Security, Governance, and Compliance|[Design Considerations](/docs/Design-Areas/security-governance-compliance.md#design-considerations)|[Design Recommendations](/docs/Design-Areas/security-governance-compliance.md#design-recommendations)|
 | Application Automation and DevOps|[Design Considerations](/docs/Design-Areas/automation-devops.md#design-considerations)|[Design Recommendations](/docs/Design-Areas/automation-devops.md#design-recommendations)|
 
-  
-  **[Azure Functions](https://azure.microsoft.com/en-us/products/functions/)** is an event-driven serverless compute platform. Azure Functions runs on demand and at scale in the cloud.
-  
-  **[Azure Api management](https://azure.microsoft.com/en-us/products/api-management/)** :is a managed service that allows you to manage services across hybrid and multi-cloud environments. API management acts as a facade to abstract the backend architecture, and it provides control and security for API observability and consumption.  
+**[PowerBI](link to powerbi)** description of the user of powerBI here
+
+**Security and governance**  
+
+**[Azure Key Vault](link for azure keyvault)** . Store credentials and other secrets using Key Vault.  
+**[Azure Api management](https://azure.microsoft.com/en-us/products/api-management/)** :is a managed service that allows you to manage services across hybrid and multi-cloud environments. API management acts as a facade to abstract the backend architecture, and it provides control and security for API observability and consumption.  
 Azure API management considerations & recommendations are broken down into six different design areas, where you can find the links to each at:
   
 | Design Area|Considerations|Recommendations|
@@ -41,6 +46,16 @@ Azure API management considerations & recommendations are broken down into six d
 | Management|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/management#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/management#design-recommendation)|
 | Governance|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/governance#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/governance#design-recommendations)|
 | Platform Automation and DevOps|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/platform-automation-and-devops#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/platform-automation-and-devops#design-recommendations)|
+
+**Bot cognition and intelligence**  
+
+  **[Azure Functions](https://azure.microsoft.com/en-us/products/functions/)** is an event-driven serverless compute platform. Azure Functions runs on demand and at scale in the cloud.
+  **[Azure Open AI](link) description**
+  other services...  
+  
+**Data ingestion**  
+
+**Logging and monitoring**  
 
 
 ## Coming soon
