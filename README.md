@@ -16,47 +16,30 @@ The following resources are available in this repository:
   5. action5
   ...
 - ### Components
-   **User Experience**
+  **User Experience**
 
-  **[Azure App Service](https://azure.microsoft.com/en-us/products/app-service/)** is a fully managed service for building, deploying, and scaling web apps. You can build apps by using .NET, .NET Core, Node.js, Java, Python, or PHP. The apps can run in containers or on Windows or Linux. In a mainframe migration, the front-end screens or web interface can be coded as HTTP-based REST APIs. They can be segregated as in the mainframe application, and can be stateless to orchestrate a microservices-based system.  
+    **[Azure App Service](https://azure.microsoft.com/en-us/products/app-service/)** is a fully managed service for building, deploying, and scaling web apps. You can build apps by using .NET, .NET Core, Node.js, Java, Python, or PHP. The apps can run in containers or on Windows or Linux. In a mainframe migration, the front-end screens or web interface can be coded as HTTP-based REST APIs. They can be segregated as in the mainframe application, and can be stateless to orchestrate a microservices-based system.  
+   **[PowerBI](https://learn.microsoft.com/en-us/power-apps/)** Used to create monitoring dashboards for your bot.
 
- Azure App service considerations & recommendations are broken down into six different design areas, where you can find the links to each at:
-| Design Area|Considerations|Recommendations|
-|--------------|--------------|--------------|
-| Identity and Access Management|[Design Considerations](/docs/Design-Areas/identity-access-mgmt.md#design-considerations)|[Design Recommendations](/docs/Design-Areas/identity-access-mgmt.md#design-recommendations)|
-| Network Topology and Connectivity|[Design Considerations](/docs/Design-Areas/networking.md#design-considerations)|[Design Recommendations](/docs/Design-Areas/networking.md#design-recommendations)|
-| Management and Monitoring|[Design Considerations](/docs/Design-Areas/mgmt-monitoring.md#design-consideration)|[Design Recommendations](/docs/Design-Areas/mgmt-monitoring.md#design-recommendation)|
-| Business Continuity and Disaster Recovery|[Design Considerations](/docs/Design-Areas/BCDR.md#design-considerations)|[Design Recommendations](/docs/Design-Areas/BCDR.md#design-recommendations)|
-| Security, Governance, and Compliance|[Design Considerations](/docs/Design-Areas/security-governance-compliance.md#design-considerations)|[Design Recommendations](/docs/Design-Areas/security-governance-compliance.md#design-recommendations)|
-| Application Automation and DevOps|[Design Considerations](/docs/Design-Areas/automation-devops.md#design-considerations)|[Design Recommendations](/docs/Design-Areas/automation-devops.md#design-recommendations)|
+  **Security and governance**  
 
-**[PowerBI](link to powerbi)** description of the user of powerBI here
+    **[Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/)** . Store credentials and other secrets using Key Vault.  
+    **[Azure Api management](https://azure.microsoft.com/en-us/products/api-management/)** :is a managed service that allows you to manage services across hybrid and multi-cloud environments. API management acts as a facade to abstract the backend architecture, and it provides control and security for API observability and consumption.  
 
-**Security and governance**  
+  **Bot cognition and intelligence**  
 
-**[Azure Key Vault](link for azure keyvault)** . Store credentials and other secrets using Key Vault.  
-**[Azure Api management](https://azure.microsoft.com/en-us/products/api-management/)** :is a managed service that allows you to manage services across hybrid and multi-cloud environments. API management acts as a facade to abstract the backend architecture, and it provides control and security for API observability and consumption.  
-Azure API management considerations & recommendations are broken down into six different design areas, where you can find the links to each at:
+    **[Azure Functions](https://azure.microsoft.com/en-us/products/functions/)** is an event-driven serverless compute platform. Azure Functions runs on demand and at scale in the cloud.  
+    **[Azure Search](https://learn.microsoft.com/en-us/azure/search/)**. Search is a managed service that provides a quick searchable document index.  
+    **[Azure Open AI](link) description**  
+    **[Azure Cognitive Services](https://azure.microsoft.com/en-us/products/ai-services)**. provides intelligent algorithms to see, hear, speak, understand, and interpret your user needs by using natural methods of communication.  
+    **[AKS](https://azure.microsoft.com/en-us/products/kubernetes-service/)**. AKS provides fully managed Kubernetes clusters for deployment, scaling, and management of containerized applications.  
+    **[Azure Container Registry](https://azure.microsoft.com/en-us/products/container-registry/)**. Container Registry is a managed, private Docker registry service on Azure. You can use Container Registry to store private Docker images, which are deployed to the cluster.
+    other services...  
   
-| Design Area|Considerations|Recommendations|
-|:--------------:|:--------------:|:--------------:|
-| Identity and Access Management|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/identity-and-access-management#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/identity-and-access-management#design-recommendations)|
-| Network Topology and Connectivity|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/network-topology-and-connectivity#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/network-topology-and-connectivity#design-recommendations)|
-| Security|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/security#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/security#design-recommendations)|
-| Management|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/management#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/management#design-recommendation)|
-| Governance|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/governance#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/governance#design-recommendations)|
-| Platform Automation and DevOps|[Design Considerations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/platform-automation-and-devops#design-considerations)|[Design Recommendations](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/app-platform/api-management/platform-automation-and-devops#design-recommendations)|
+  **Data ingestion**  
 
-**Bot cognition and intelligence**  
-
-  **[Azure Functions](https://azure.microsoft.com/en-us/products/functions/)** is an event-driven serverless compute platform. Azure Functions runs on demand and at scale in the cloud.
-  **[Azure Open AI](link) description**
-  other services...  
-  
-**Data ingestion**  
-
-**Logging and monitoring**  
-
+  **Logging and monitoring**    
+ **[Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db/)** is a fully managed NoSQL and relational database for modern app development.
 
 ## Coming soon
 A deployment guide and scripts to help you instantly set up these services in your Azure tenant. 
