@@ -3,9 +3,9 @@ Welcome! This repository serves as a guide for deploying a GPT-powered chat bot 
 
 ## Resources
 The following resources are available in this repository:
-
 **High Level Diagram**: To highlight the logical flow of Azure components to facilitate conversations with the chat bot on your web application
-- ### Dataflow components
+![High Level Diagram](https://github.com/divim/AzureOpenAI-Ref/blob/main/Logical%20High%20Level%20Diagram.png)
+### Dataflows
 There are 3 key flows in the high level diagram that are color coded:
 
 **ORANGE**
