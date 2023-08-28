@@ -2,12 +2,10 @@
 Welcome! This repository serves as a guide for deploying a GPT-powered chat bot to your web application. The reference architecture and guidance complies with Azure Qatar Reference Architecture. 
 
 ## Resources
-The following resources are available in this repository:
 
 ### **High Level Diagram**
 ![High Level Diagram](https://github.com/divim/AzureOpenAI-Ref/blob/main/Logical%20High%20Level%20Diagram.png)
-#### Dataflows
-There are 3 key flows in the high level diagram that are color coded:
+#### DATAFLOWS
 
 **ORANGE**
   1. **[Azure App Service](https://azure.microsoft.com/en-us/products/app-service/)**: Provides a fully managed platform for building and hosting web applications. It is used for hosting in a simple way web applications that consume OpenAI services.
