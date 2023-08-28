@@ -20,6 +20,12 @@ There are 3 key flows in the high level diagram that are color coded:
 **GREEN**
   
 **BLUE**
+1. **[Azure Synapse Link for Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link)**: Provides native integration between Azure Cosmos DB Analytical Store and Azure Synapse Analytics for the purpose of analyzing data in Cosmos DB.
+2. **[Azure Spark Pools, Azure Dedicated SQL Pools, Azure AI Language]**: Provide a processing and enrichment pipleline during which data is structured and classified to be ready for analysis. Some of the data enrichment capabilities made possible by Azure AI Language are sentiment analysis, key phrase extraction, and text classification. The resulting enriched text will be stored in a Dedicated SQL pool for serving purposes. The processing part can be done in Spark Pools or SQL Pools or even both based on the preference of the developer.
+3. **[Power BI]**: SQL dedicated pools will serve the data to Power BI datasets that will host a semantic model optimized for reporting. Reports can then be developed in Power BI on top of the semantic model to provide the needed insights. Some of which are listed below:
+		a. Top searched content
+		b. Average session time
+		c. Satisfied vs unsatisfied users: Conversations of unsatisfied users can be further analyzed to enhance the whole solution
 
 **Low Level Diagram**: Builds on top of the Azure Qatar Reference Architecture to provide secure and scalable ways to deploy your resources
 
