@@ -6,6 +6,9 @@ The following resources are available in this repository:
 
 **High Level Diagram**: To highlight the logical flow of Azure components to facilitate conversations with the chat bot on your web application
 - ### Dataflow components
+There are 3 key flows in the high level diagram that are color coded:
+
+**ORANGE**
   1. **[Azure App Service](https://azure.microsoft.com/en-us/products/app-service/)**: Provides a fully managed platform for building and hosting web applications. It is used for hosting in a simple way web applications that consume OpenAI services.
   2. **[Azure Api management](https://azure.microsoft.com/en-us/products/api-management/)** : Provides a unified API gateway for existing back-end services and APIs. It is used in the Landing Zone for managing and securing APIs used by OpenAI applications. APIM can be configured with an Application Gateway as a Web Application Firewall (WAF) to further enhance security. The WAF protects APIs from common web-based attacks like SQL injection or Cross-Site Scripting (XSS) and can be customized to suit specific needs.
   3. **[Azure Functions](https://azure.microsoft.com/en-us/products/functions/)** is an event-driven serverless compute platform. Azure Functions runs on demand and at scale in the cloud.  
@@ -13,6 +16,10 @@ The following resources are available in this repository:
   5. **[Azure Search](https://learn.microsoft.com/en-us/azure/search/)**. Search is a managed service that provides a quick searchable document index. 
   6. **[AKS](https://azure.microsoft.com/en-us/products/kubernetes-service/)**. AKS provides fully managed Kubernetes clusters for deployment, scaling, and management of containerized applications.
   7. **[Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db/)** is a fully managed NoSQL and relational database for modern app development.
+
+**GREEN**
+  
+**BLUE**
 
 **Low Level Diagram**: Builds on top of the Azure Qatar Reference Architecture to provide secure and scalable ways to deploy your resources
 
