@@ -30,7 +30,7 @@ The following resources are available in this repository:
 
     **[Azure Functions](https://azure.microsoft.com/en-us/products/functions/)** is an event-driven serverless compute platform. Azure Functions runs on demand and at scale in the cloud.  
     **[Azure Search](https://learn.microsoft.com/en-us/azure/search/)**. Search is a managed service that provides a quick searchable document index.  
-    **[Azure Open AI](link) description**  
+    **[Azure Open AI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)** is a service that provides AI models that are trained on a large amount of data. You can use these models to generate text, images, and more.  
     **[Azure Cognitive Services](https://azure.microsoft.com/en-us/products/ai-services)**. provides intelligent algorithms to see, hear, speak, understand, and interpret your user needs by using natural methods of communication.  
     **[AKS](https://azure.microsoft.com/en-us/products/kubernetes-service/)**. AKS provides fully managed Kubernetes clusters for deployment, scaling, and management of containerized applications.  
     **[Azure Container Registry](https://azure.microsoft.com/en-us/products/container-registry/)**. Container Registry is a managed, private Docker registry service on Azure. You can use Container Registry to store private Docker images, which are deployed to the cluster.
