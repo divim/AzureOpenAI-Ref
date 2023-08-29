@@ -26,7 +26,8 @@ Welcome! This repository serves as a guide for deploying a GPT-powered chat bot 
 		b. Average session time
 		c. Satisfied vs unsatisfied users: Conversations of unsatisfied users can be further analyzed to enhance the whole solution
 
-**Low Level Diagram**: Builds on top of the Azure Qatar Reference Architecture to provide secure and scalable ways to deploy your resources
+### **Low Level Diagram**
+![Low Level Diagram](https://github.com/divim/AzureOpenAI-Ref/blob/main/Low%20Level%20Diagram.png)
 
 ## Coming soon
 A deployment guide and scripts to help you instantly set up these services in your Azure tenant. 
