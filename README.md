@@ -17,6 +17,8 @@ Welcome! This repository serves as a guide for deploying a GPT-powered chat bot 
   7. **[Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db/)** is a fully managed NoSQL and relational database for modern app development.
 
 **GREEN**
+1. **[Azure Data Lake Storage Gen2](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction)**: is a service used to store all the raw data, like pdf, audio, video, and text files.
+2. **[Azure Search](https://learn.microsoft.com/en-us/azure/search/)**. Search service is used to index all the raw data. The index can achieved with built-in or custom skills by using Cognitive Services, Azure Open AI and Azure Function.
   
 **BLUE**
 1. **[Azure Synapse Link for Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/synapse-link)**: Provides native integration between Azure Cosmos DB Analytical Store and Azure Synapse Analytics for the purpose of analyzing data in Cosmos DB.
