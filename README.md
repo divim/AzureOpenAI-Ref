@@ -46,3 +46,6 @@ This project is licensed under the MIT License.
 GPT (Generative Pre-trained Transformer) is a Large Language Model (LLM) developed by OpenAI. It is a deep learning model based on the Transformer architecture. For more information, refer to [OpenAI](openai.com).
 2. **What is the Azure Qatar Reference Architecture**
 It is a prescriptive guide for building enterprise-scale architecture to run workloads on Azure in a scalable, secure, and resilient way.
+3. **Why do I need Redis Cache on AKS**
+4. **Why CosmosDB is used to save chat history**
+5. **Why is arrow from Azure Function to cognitive search dotted ...**
