@@ -32,9 +32,6 @@ Welcome! This repository serves as a guide for deploying a GPT-powered chat bot 
 ![Low Level Diagram](https://github.com/divim/AzureOpenAI-Ref/blob/main/Low%20Level%20Diagram.png)
 This diagram highlights how to ensure secure deployment of each of the mentioned components through a hub-spoke model of deployment. Please note that there is no public networking enabled for any of the components inside the Azure OpenAI ref. architecture. Private endpoints or VNET integration is leveraged, wherever possible. 
 
-## Coming soon
-A deployment guide and scripts to help you instantly set up these services in your Azure tenant. 
-
 ## Contributions
 We welcome contributions to enhance and expand this reference architecture. If you have improvements, suggestions, or new insights, feel free to open an issue or submit a pull request.
 
